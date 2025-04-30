@@ -1,6 +1,5 @@
 # Orbital-Mechanics-Simulator
 Orbital Mechanics Simulator in Python simulating a two body orbit with Newton's laws of motion.
-# Orbital Trajector Simulatior in 3D
 
 This project simulates and visualizes a 3D satellite orbit around Earth using Python. It demonstrates classical orbital mechanics concepts including elliptical trajectories, orbital inclination, and the computation of key orbital elements.
 
