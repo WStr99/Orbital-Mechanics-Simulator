@@ -38,7 +38,7 @@ Orbital-Simulation-1/2.MOV
 1. Clone the repo:
    ```bash
    git clone https://github.com/yourusername/orbital-simulation.git
-   cd orbital-simulation
+   cd Orbital-Simulatior
 
 
 ## Install Requirments
