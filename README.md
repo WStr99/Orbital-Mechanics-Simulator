@@ -23,7 +23,7 @@ Calculation of classical orbital elements (COEs):
   - Argument of periapsis (ω)
   - True anomaly (ν)
 
-Interplanetary Transfer: Earth to Mars (orbit_transfer.py) *Work in progress*
+Interplanetary Transfer: Earth to Mars (orbit_transfer.py) *(Work in progress)*
 
 Models Earth, Mars, Sun, and rocket interactions using Newtonian gravity
   - Implements an interplanetary transfer based on:
