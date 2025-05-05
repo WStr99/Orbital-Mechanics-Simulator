@@ -61,6 +61,13 @@ Orbital-Tranfer.mov
 
 <img width="582" alt="orbital_transfer" src="https://github.com/user-attachments/assets/da625694-8af5-4544-a01c-d61e0cbf0a0c" />
 
+## Known Bugs
+  - in orbital_transfer.py, program crashes when saatelite position == earth's position (divide by 0 error), as a result the satelite must start outside of earth's orbit and will not be fully captured by Mars' orbit.
+
+## Future Improvements 
+- in two_body_simulator.py the ability to input thrust in real-time will be added in order to vizualize how this affects orbit
+- in orbital_transfer.py, known bug will be fixed and Lambert's problem will be able to be solved within the program rather than hard coded
+
 ## ⚙️ How to Run
 
 1. Clone the repo:
