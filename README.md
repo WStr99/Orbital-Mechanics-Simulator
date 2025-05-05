@@ -53,13 +53,13 @@ Orbital-diagram.png
 
 Orbital-Simulation-1/2.MOV
   - Video of orbital simulation
+
+<img width="582" alt="two_body" src="https://github.com/user-attachments/assets/b2d19a8d-d2b7-432c-acb4-b2f1bcd5c9b7" />\
     
 Orbital-Tranfer.mov
   - Video of orbital tarnsfer from Earth to Mars
 
-<img width="582" alt="two_body" src="https://github.com/user-attachments/assets/b2d19a8d-d2b7-432c-acb4-b2f1bcd5c9b7" />
-
-<img width="582" alt="orbital_transfer" src="https://github.com/user-attachments/assets/da625694-8af5-4544-a01c-d61e0cbf0a0c" />
+<img width="655" alt="orbit-transfer" src="https://github.com/user-attachments/assets/cb08ea18-e689-4b23-9f09-f923793686e6" />
 
 ## Known Bugs
   - in orbital_transfer.py, program crashes when saatelite position == earth's position (divide by 0 error), as a result the satelite must start outside of earth's orbit and will not be fully captured by Mars' orbit.
