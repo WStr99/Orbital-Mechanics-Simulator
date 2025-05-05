@@ -66,7 +66,8 @@ Orbital-Tranfer.mov
 
 ## Future Improvements 
 - in two_body_simulator.py the ability to input thrust in real-time will be added in order to vizualize how this affects orbit
-- in orbital_transfer.py, known bug will be fixed and Lambert's problem will be able to be solved within the program rather than hard coded
+- in orbital_transfer.py, known bug will be fixed and as a result Lambert's problem & Hohmann Transfer will be able to be solved fully within the program rather than hard coded
+
 
 ## ⚙️ How to Run
 
