@@ -37,9 +37,9 @@ Real-time 3D animation of:
 # Customization
 
 In two_body_simulator.py, you can tune initial position (r0) and velocity (v0) vectors inside orbit_3d_animated.py to control:
-    - Orbit inclination (e.g. set to ~150°)
-    - Orbit shape (eccentricity)
-    - Initial speed and orientation
+  - Orbit inclination (e.g. set to ~150°)
+  - Orbit shape (eccentricity)
+  - Initial speed and orientation
 
 In orbit_transfer.py, you can experiment with:
   - Launch vector v_rocket
@@ -52,7 +52,7 @@ Orbital-diagram.png
     - detailed diagram of COEs
 
 Orbital-Simulation-1/2.MOV
-    - Video of orbital simulation
+  - Video of orbital simulation
 
 <img width="582" alt="two_body" src="https://github.com/user-attachments/assets/b2d19a8d-d2b7-432c-acb4-b2f1bcd5c9b7" />
     
