@@ -54,7 +54,7 @@ Orbital-diagram.png
 Orbital-Simulation-1/2.MOV
   - Video of orbital simulation
 
-<img width="582" alt="two_body" src="https://github.com/user-attachments/assets/b2d19a8d-d2b7-432c-acb4-b2f1bcd5c9b7" />\
+<img width="582" alt="two_body" src="https://github.com/user-attachments/assets/b2d19a8d-d2b7-432c-acb4-b2f1bcd5c9b7" />
     
 Orbital-Tranfer.mov
   - Video of orbital tarnsfer from Earth to Mars
