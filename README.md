@@ -65,6 +65,7 @@ Orbital-Tranfer.mov
   - in orbital_transfer.py, program crashes when saatelite position == earth's position (divide by 0 error), as a result the satelite must start outside of earth's orbit and will not be fully captured by Mars' orbit.
 
 ## Future Improvements 
+- Model drag and J2 perturbations 
 - in two_body_simulator.py the ability to input thrust in real-time will be added in order to vizualize how this affects orbit
 - in orbital_transfer.py, known bug will be fixed and as a result Lambert's problem & Hohmann Transfer will be able to be solved fully within the program rather than hard coded
 - in orbital_transfer.py, other planets in the solar system will be added
