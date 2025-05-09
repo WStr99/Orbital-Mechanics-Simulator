@@ -1,5 +1,5 @@
 # Orbital-Mechanics-Simulator
-This project is a modular Python suite for simulating and visualizing spacecraft orbits, orbital maneuvers, and interplanetary transfers. It includes support for gravity modeling, atmospheric drag, J2 perturbations, real-time COE tracking, and multiple simulation modes like Earth orbit and Earth-to-Mars transfer.
+This project is an Object-Oriented modular Python suite for simulating and visualizing spacecraft orbits, orbital maneuvers, and interplanetary transfers. It includes support for gravity modeling, atmospheric drag, J2 perturbations, real-time COE tracking, and multiple simulation modes like Earth orbit and Earth-to-Mars transfer.
 
 ## Features
 
@@ -9,6 +9,7 @@ Earth-Centric Orbit Simulation (Spacecraft simulation)
 - Real-time 3D visualization using matplotlib.
 - Thrust modeled in orthagonal direction to change inclination
 - Computes real-time COEs
+- Object Oriented Design
 
 <img width="698" alt="Screenshot 2025-05-08 at 11 19 14 PM" src="https://github.com/user-attachments/assets/5928168a-b4c1-4675-889d-b326b46ca0be" />
 
