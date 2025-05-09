@@ -8,8 +8,10 @@ Earth-Centric Orbit Simulation (Spacecraft simulation)
 - Simulates n number of spacecraft and ISS orbits with thrust input.
 - Real-time 3D visualization using matplotlib.
 - Thrust modeled in orthagonal direction to change inclination
+- Computes real-time COEs
 
 <img width="698" alt="Screenshot 2025-05-08 at 11 19 14 PM" src="https://github.com/user-attachments/assets/5928168a-b4c1-4675-889d-b326b46ca0be" />
+
 
 Hohmann Transfer Simulator (test_scripts/orbital_transfer.py)
 - Models an interplanetary transfer from Earth to Mars.
@@ -17,6 +19,7 @@ Hohmann Transfer Simulator (test_scripts/orbital_transfer.py)
 - Animates orbital paths using approximate Lambert solution.
 
 <img width="700" alt="Screenshot 2025-05-08 at 11 34 49 PM" src="https://github.com/user-attachments/assets/a5d4223e-df14-4ae6-8d59-df4e6a8d5579" />
+
 
 Basic Two-Body Simulator (test_scripts/two_body_simulatior.py)
 - Accurate RK45 integration of elliptical orbits.
