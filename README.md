@@ -1,76 +1,37 @@
 # Orbital-Mechanics-Simulator
-Orbital Mechanics Simulator in Python simulating both a two-body orbit around Earth and an interplanetary transfer from Earth to Mars using Newton’s laws and classical orbital mechanics.
-This project includes:
-  - A 3D satellite orbit simulator demonstrating elliptical motion and orbital elements around Earth.
-  - An orbital transfer simulation illustrating an interplanetary maneuver using Hohmann transfer principles and an approximate Lambert solution.
-
+This project is a modular Python suite for simulating and visualizing spacecraft orbits, orbital maneuvers, and interplanetary transfers. It includes support for gravity modeling, atmospheric drag, J2 perturbations, real-time COE tracking, and multiple simulation modes like Earth orbit and Earth-to-Mars transfer.
 
 ## Features
 
-Earth-Centered Two-Body Orbit (two_body_simulator.py)
+Earth-Centric Orbit Simulation (Spacecraft simulation)
+- Models gravitational effects, atmospheric drag, and J2 perturbation.
+- Simulates n number of spacecraft and ISS orbits with thrust input.
+- Real-time 3D visualization using matplotlib.
+- Thrust modeled in orthagonal direction to change inclination
 
-3D simulation of Earth-centered elliptical orbits using `solve_ivp` from `scipy`
-Real-time animation of satellite motion along a numerically integrated orbit
-Visualization of:
-  - Perigee and apogee (fastest and slowest orbital points)
-  - Earth as one orbital focus, with computed second focus and ellipse center
-  - Equatorial plane and orbit inclination
-Calculation of classical orbital elements (COEs):
-  - Semi-major axis (a)
-  - Eccentricity (e)
-  - Inclination (i)
-  - RAAN (Ω)
-  - Argument of periapsis (ω)
-  - True anomaly (ν)
+<img width="698" alt="Screenshot 2025-05-08 at 11 19 14 PM" src="https://github.com/user-attachments/assets/5928168a-b4c1-4675-889d-b326b46ca0be" />
 
-Interplanetary Transfer: Earth to Mars (orbit_transfer.py) *(Work in progress)*
+Hohmann Transfer Simulator (test_scripts/orbital_transfer.py)
+- Models an interplanetary transfer from Earth to Mars.
+- Multi-body integration of Sun, Earth, Mars, and Rocket.
+- Animates orbital paths using approximate Lambert solution.
 
-Models Earth, Mars, Sun, and rocket interactions using Newtonian gravity
-  - Implements an interplanetary transfer based on:
-  - Hohmann Transfer concept
-  - Approximate Lambert’s problem solution for the rocket’s injection vector
-Real-time 3D animation of:
-  - Earth and Mars orbiting the Sun
-  - Rocket transferring from Earth to Mars
-  - Ideal for understanding interplanetary trajectories and mission planning concepts
+<img width="700" alt="Screenshot 2025-05-08 at 11 34 49 PM" src="https://github.com/user-attachments/assets/a5d4223e-df14-4ae6-8d59-df4e6a8d5579" />
 
-# Customization
+Basic Two-Body Simulator (test_scripts/two_body_simulatior.py)
+- Accurate RK45 integration of elliptical orbits.
+- COE computation and animation of orbital motion.
 
-In two_body_simulator.py, you can tune initial position (r0) and velocity (v0) vectors inside orbit_3d_animated.py to control:
-  - Orbit inclination (e.g. set to ~150°)
-  - Orbit shape (eccentricity)
-  - Initial speed and orientation
-
-In orbit_transfer.py, you can experiment with:
-  - Launch vector v_rocket
-  - Initial spacing between Earth and Mars
-  - Integration span (transfer time window)
-
-## Screenshots / Media
-
-Orbital-diagram.png
-    - detailed diagram of COEs
-
-Orbital-Simulation-1/2.MOV
-  - Video of orbital simulation
-
-<img width="582" alt="two_body" src="https://github.com/user-attachments/assets/b2d19a8d-d2b7-432c-acb4-b2f1bcd5c9b7" />
-    
-Orbital-Tranfer.mov
-  - Video of orbital tarnsfer from Earth to Mars
-
-<img width="655" alt="orbit-transfer" src="https://github.com/user-attachments/assets/cb08ea18-e689-4b23-9f09-f923793686e6" />
+<img width="667" alt="Screenshot 2025-05-08 at 11 37 48 PM" src="https://github.com/user-attachments/assets/880d8096-2388-4982-b231-9dc2773a7531" />
 
 ## Known Bugs
   - in orbital_transfer.py, program crashes when saatelite position == earth's position (divide by 0 error), as a result the satelite must start outside of earth's orbit and will not be fully captured by Mars' orbit.
 
 ## Future Improvements 
-- Model drag and J2 perturbations 
 - in two_body_simulator.py the ability to input thrust in real-time will be added in order to vizualize how this affects orbit
 - in orbital_transfer.py, known bug will be fixed and as a result Lambert's problem & Hohmann Transfer will be able to be solved fully within the program rather than hard coded
 - in orbital_transfer.py, other planets in the solar system will be added
 - in in orbital_transfer.py, the ability to add new bodies to the solar system will be added
-
 
 ## ⚙️ How to Run
 
